@@ -22,6 +22,8 @@ def show_menu():
     for donut, price in menu.items():
         print(f"{donut}: ${price:.2f}")
 
+        """'2f' = 2 decimal places for clear cost reading"""
+
 # Main program
 if __name__ == "__main__":
     welcome_message()
